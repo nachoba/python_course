@@ -1,6 +1,12 @@
-# Preface
 
-## How to Read this Book
+# Python Programming: An Introduction to CS
+*John Zelle*
+
+![alt text](cover.png)
+
+## Preface
+
+### How to Read this Book
 
 1. **Chapters 1-4:** should be read in order.
 2. **Chapter 5:** can be divided: "Sequences" is fundamental, the rest can be treated later.
