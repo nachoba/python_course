@@ -41,3 +41,11 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+Let's analyze some of them:
+
+Python's programmers embrace the notion that code can be beautiful and elegant.
+* *Simple is better than complex:* If you have a choice between a simple and complex solution, and both work, use the simple solution.
+* *Complex is better than complicated:* If a simple solution to a problem is unattainable, use the simplest solution that works.
+* *Readability counts:* Even when your code is complex, aim to make it readable. When you're working on a project that involves complex coding, focus on writing informative comments.
+* *There should be one $-$and preferably only one$-$ obvious way to do it:* Much of programming consists of using small, common approaches to simple situations within a large project.
+* *Now is better than never:* Don't try to write the perfect code; write code that works, and then decide whether to improve your code.
