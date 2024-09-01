@@ -164,16 +164,21 @@ The market's volatility is captured by the volatility index $VIX$. Unless you ar
 
 ### Exercises
 1. Using the bid price, how much would it cost you to buy 1 call options contract for TSLA at the $455 strike?
+   
 `The bid @ $455 strike is $77.60. One contract is 100 shares so the cost would be  100 x $77.60 = $7,760`
 
 2. Using the ask price, how much would you receive if you sold 1 call options contracts for TSLA at the $460 strike?
+
 `The ask @ $460 strike is $79.70. One contract is 100 share so the cost would be  100 x $79.70 = $7,960`
 
 3. The options in figure 1 have 60 days to expiry. All other things being equal, would the price of these options be higher or lower in 30 days time?
+
 `There would be lower because of Time Decay -> The time value or extrinsic value.`
 
 4. TSLA traded at $442.50 when figure 1 was printed. The price of the call option at the $420 strike is $92. How much of this $92 is intrinsic value, and how much is time value?
+
 `Intrinsic value = Stock Price - Strike -> $442.50 - $420.00 = $22.50 / Then, the time value is the difference: $92.00 - $22.50 = $69.50`
+
 Remember, only ***ITM*** options have intrinsic value. Because intrinsic value cannot be negative, ***OTM*** options only consists of time value.
 
 ![](figures/002-figure001.png)
