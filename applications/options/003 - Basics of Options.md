@@ -111,8 +111,9 @@ Writing a put can be risky. Why write puts instead of buy calls?
 This highlights an important difference between writing an option and buying one: *When you buy an option, you're marrying yourself to the strike price.* You need to be able to predict not just the strike price that will make you money but also the time it will take the underlying to move past that strike.
 Writing a put allows to divorce from the stock having to move past a particular strike price. What we effectively are saying is that the stock price will not fall below certain level over the expiry period of the put. ***This is very different from saying the price will definitely rise past a certain strike price (which is the case if we bought a call).***
 
-
-==Covered Call Rule #3==
+>[!TIP]
+>Covered Call Rule #3
+>
 >Whether you write a put or call option, you always get paid the premium upfront and get to keep it regardless of whether or not the option finishes in the money.
 
 But what happens if the options moves ***ITM*** and you're hit with an exercise from the option buyer? This process is called and ***assignment.*** If you're ***assigned*** an option, it means the buyer has exercised the option and you need to deliver.
@@ -127,13 +128,15 @@ There is an easy way to eliminate the risk of writing a call. It's by already ho
 ### Option Chains
 Another item you'll need to become familiar with is the option chain. The ***option chain*** is just a visual representation of which options are available for you to buy or write at a particular time.
 
-![[001-figure001.png]]
+![](figures/001-figure001.png)
 
 The page shows the bid and ask prices of each option at the different strike prices. In addition to this, some other information could be shown such as implied volatility, volumes and open interest. Volume is the same thing as with stocks, which is to say they indicate the number of contracts being traded.
 
 Implied volatility is denoted by the Greek letter sigma $\sigma$ or $\Sigma$. It is expressed as a percentage or in terms of a standard deviation number and indicates how much the stock is likely to move in the near future. A higher implied volatility value indicates that the stock is going to be more volatile. You should also note that ***volatility is not directional***, so higher volatility does not mean a stock will definitely move up or down. It is a measure of the amount it could move in either direction.
 
-==Covered Call Rule #4==
+> [!TIP]
+>Covered Call Rule #4
+> 
 >Implied volatility is always non-directional
 
 Implied volatility should not be confused with historical volatility or beta. Beta indicates how volatile the stock has been in the past. Implied volatility is concerned with the near future. Also note the implied volatility can be divorced from the overall market volatility. 
@@ -173,5 +176,5 @@ The market's volatility is captured by the volatility index $VIX$. Unless you ar
 `Intrinsic value = Stock Price - Strike -> $442.50 - $420.00 = $22.50 / Then, the time value is the difference: $92.00 - $22.50 = $69.50`
 Remember, only ***ITM*** options have intrinsic value. Because intrinsic value cannot be negative, ***OTM*** options only consists of time value.
 
-![[002-figure001.png]]
+![](figures/002-figure001.png)
 
