@@ -35,7 +35,7 @@ intrinsic_value = spot_price - strike_price
 if (intrinsic_value > 0):
     print(f"The intrinsic value of the call option is {intrinsic_value:.2f}")
 else:
-	print(f"The call option is out of the money and has no intrinsic value")
+    print(f"The call option is out of the money and has no intrinsic value")
 ```
 
 This leaves us with the time value. Unlike the *intrinsic value*, the *time value* is not as straightforward mathematical calculation. ***The longer and option has until expiration, the more valuable it is.*** The reasoning is that there is more time for the underlying to move into a position where the option can make you money.***The closer it is to expiry, the less value it has, since there is less time for the option to make you money.***
@@ -96,7 +96,7 @@ intrinsic_value = strike_price - spot_price
 if (intrinsic_value > 0):
     print(f"The intrinsic value of the put option is {intrinsic_value:.2f}")
 else:
-	print(f"The put option is out of the money and has no intrinsic value")
+    print(f"The put option is out of the money and has no intrinsic value")
 ```
 
 ### Buying and Writing Options
