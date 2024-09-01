@@ -39,7 +39,9 @@ Investors treat volatility as a known unknown: they may not know in which direct
 ##### Improper Use of Leverage
 Options provide you with the ability to leverage your money, and this can create problems. Beginners should stick to simple options strategies, such as writing covered calls.
 
-==Covered Call Rule #2==
+>[!TIP]
+>Covered Call Rule #2
+>
 > You can make a steady monthly income by only using basic options strategies.
 
 #### Time Decay
