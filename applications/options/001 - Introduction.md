@@ -9,7 +9,9 @@ Cash flow provides us with the opportunity to leverage our investment for free. 
 
 **So what should an investor do?** Do you have to choose between capital gains and cash flows? This is where covered calls comes into the picture.
 
-==Covered Call Rule #1==
+>[!TIP]
+>Covered Call Rule #1
+>
 > The best investor's aim to get both capital gains and income from their portfolio.
 
 ### Using Covered Calls for Income
